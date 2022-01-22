@@ -1,6 +1,8 @@
 from django.db import models
 from faker import Faker
 import random
+from django.db import models
+from phone_field import PhoneField
 
 
 class Teacher(models.Model):
@@ -8,7 +10,9 @@ class Teacher(models.Model):
     last_name = models.CharField(max_length=64, null=False)
     age = models.IntegerField(null=True)
     occupation = models.CharField(max_length=64, null=False)
-    related_groups = models.CharField(max_length=64, null=True)
+    email = models.EmailField(max_length=64, null=False, default="test_django@gmail.com")
+    birth_date = models.DateField(null=True)
+    phone_number = PhoneField(blank=True, help_text='Contact phone number')
 
     @classmethod
     def generate_teachers(cls, count):

@@ -1,7 +1,5 @@
 from django.core.management.base import BaseCommand
-from faker import Faker
 from teachers.models import Teacher
-import random
 
 
 class Command(BaseCommand):
@@ -12,14 +10,6 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         number_of_teachers = kwargs['number_of_teachers']
-        faker = Faker()
-        occupation = ['Python', 'Java', 'JavaScript', 'PHP', 'C', 'C++']
 
         for _ in range(number_of_teachers):
-            t = Teacher()
-            t.first_name = faker.first_name()
-            t.last_name = faker.last_name()
-            t.age = random.randint(25, 50)
-            t.occupation = random.choice(occupation)
-
-            t.save()
+            Teacher.generate_teachers(number_of_teachers)
