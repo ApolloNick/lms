@@ -10,6 +10,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         number_of_teachers = kwargs['number_of_teachers']
+        generated_teachers = Teacher.generate_teachers(number_of_teachers)
 
         for _ in range(number_of_teachers):
-            Teacher.generate_teachers(number_of_teachers)
+            generated_teachers
