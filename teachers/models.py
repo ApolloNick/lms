@@ -1,8 +1,8 @@
-from django.db import models
+import datetime
+from dateutil.relativedelta import relativedelta
 from faker import Faker
 import random
 from django.db import models
-from phone_field import PhoneField
 
 
 class Teacher(models.Model):
@@ -12,12 +12,13 @@ class Teacher(models.Model):
     occupation = models.CharField(max_length=64, null=False)
     email = models.EmailField(max_length=64, null=False, default="test_django@gmail.com")
     birth_date = models.DateField(null=True)
-    phone_number = PhoneField(blank=True, help_text='Contact phone number')
+    phone_number = models.CharField(max_length=24)
 
     @classmethod
     def generate_teachers(cls, count):
         faker = Faker()
         occupation = ['Python', 'Java', 'JavaScript', 'PHP', 'C', 'C++']
+        mobile_operators_ukr = ['050', '096', '097', '073', '048', '067', '099', '093']
 
         for _ in range(count):
             t = Teacher()
@@ -25,9 +26,16 @@ class Teacher(models.Model):
             t.last_name = faker.last_name()
             t.age = random.randint(25, 50)
             t.occupation = random.choice(occupation)
+            t.email = faker.email()
+            t.birth_date = datetime.datetime.now() - relativedelta(years=t.age)
+            core_number = ''
+            for x in range(7):
+                core_number += str(random.randint(0, 9))
+            t.phone_number = f'+38({random.choice(mobile_operators_ukr)}){core_number}'
 
             t.save()
 
     def __str__(self):
         return f"Teacher {self.id}  {self.first_name} {self.last_name} " \
-               f"{self.age} years, {self.occupation} specialist"
+               f"{self.age} years, {self.birth_date}  {self.occupation} specialist, " \
+               f"Phone: {self.phone_number} Email: {self.email}"
