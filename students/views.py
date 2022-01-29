@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render  # noqa
 
 from students.models import Student
-from students.utils import render_list
+from core_lms.utils import render_list
 
 
 def get_students(request):

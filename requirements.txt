@@ -5,7 +5,12 @@ black==21.12b0
 click==8.0.3
 decorator==5.1.1
 Django==3.2.11
+django-debug-toolbar==3.2.4
+django-debug-toolbar-force==0.1.8
 django-extensions==3.1.5
+django-nine==0.2.5
+django-phone-field==1.8.1
+django-phonenumber-field==6.0.0
 executing==0.8.2
 Faker==11.3.0
 flake8==4.0.1
