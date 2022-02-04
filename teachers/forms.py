@@ -5,10 +5,9 @@ import django_filters
 
 
 class TeacherFilter(django_filters.FilterSet):
-
     class Meta:
         model = Teacher
-        fields = ['first_name', 'last_name', 'age', 'email']
+        fields = ['first_name', 'last_name', 'age', 'email', 'phone_number']
 
 
 class TeacherBaseForm(ModelForm):
@@ -41,6 +40,4 @@ class TeacherCreateForm(TeacherBaseForm):
 
 
 class TeacherEditForm(TeacherBaseForm):
-    class Meta:
-        model = Teacher
-        exclude = ['age']
+    pass

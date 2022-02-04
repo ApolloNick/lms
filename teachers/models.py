@@ -45,3 +45,7 @@ class Teacher(models.Model):
         return f"Teacher {self.id}  {self.first_name} {self.last_name} " \
                f"{self.age} years, {self.birth_date}  {self.occupation} specialist, " \
                f"Phone: {self.phone_number} Email: {self.email}"
+
+    @property
+    def name(self):
+        return f"{self.first_name} {self.last_name}"
