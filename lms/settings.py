@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_extensions',
     'debug_toolbar',
-    'phone_field',
+    'crispy_forms',
+
     'students',
     'teachers',
     'groups',
@@ -141,3 +142,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'

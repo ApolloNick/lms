@@ -1,10 +1,13 @@
-{% extends "../../templates/_base.html" %}
+{% extends "_base.html" %}
+{% load crispy_forms_tags %}
+
 {% block title %}
     <title> Edit Teachers</title>
 {% endblock %}
 {% block main %}
     <form method="post">
-            {{form.as_p}}
+            {% csrf_token %}
+            {{form|crispy}}
             <p><button type="submit"> Edit Teachers </button></p>
     </form>
 {% endblock %}

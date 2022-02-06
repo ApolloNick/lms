@@ -17,6 +17,12 @@ class Teacher(models.Model):
                                     validators=[RegexValidator(
                                         r'^(\+\d\d?)?\(\d{3}\)(\d-?){7}$',
                                         message='Phone number has to be like +38(050)111-11-11')])
+    group = models.ForeignKey(
+        to='groups.Group',
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name='teachers',
+    )
 
     @classmethod
     def generate_teachers(cls, count):

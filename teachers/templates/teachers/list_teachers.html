@@ -1,4 +1,5 @@
 {% extends "_base.html" %}
+{% load crispy_forms_tags %}
 {% block title %}
     <title> Teachers </title>
 {% endblock %}
@@ -6,7 +7,7 @@
 {% block main %}
     <form>
         <p> Search Teachers </p>
-        {{ filter.form.as_p }}
+        {{ filter.form|crispy }}
 
         <p>
             <button type="submit">Search</button>
@@ -21,8 +22,8 @@
             <th> ID </th>
             <th> First Name</th>
             <th> Last Name</th>
-            <th> Age </th>
             <th> Occupation </th>
+            <th> Group ID </th>
             <th> Email </th>
             <th> Phone Number </th>
             <th>  </th>
@@ -33,8 +34,8 @@
             <td>{{ teacher.id }}</td>
             <td>{{ teacher.first_name }}</td>
             <td>{{ teacher.last_name }}</td>
-            <td>{{ teacher.age }}</td>
             <td>{{ teacher.occupation }}</td>
+            <td>{{ teacher.group_id }}</td>
             <td>{{ teacher.email }}</td>
             <td>{{ teacher.phone_number }} </td>
             <td>   <a href="{% url 'teachers:edit_teachers' id=teacher.id %}"> Edit </a> </td>
