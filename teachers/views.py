@@ -6,7 +6,7 @@ from teachers.models import Teacher
 
 
 def get_teachers(request):
-    qs = Teacher.objects.all()
+    qs = Teacher.objects.all().select_related('group')
     teacher_filter = TeacherFilter(data=request.GET, queryset=qs)
     return render(request, 'teachers/list_teachers.html', {
         "args": request.GET,

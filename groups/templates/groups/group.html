@@ -1,0 +1,27 @@
+{% extends '_base.html' %}
+
+{% block title %}
+    <title> Groups </title>
+{% endblock %}
+
+{% block main %}
+
+    <h2>Group {{ group.name }}</h2>
+
+    <table class="table">
+        <tr>
+            <th> Course </th>
+            <th>{{ group.course }}</th>
+        </tr>
+        <tr>
+            <th> Start Date </th>
+            <th>{{ group.start_date }}</th>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    {% with teachers=group.teachers.all %}
+        {% include 'teachers/_teachers_list_table.html' %}
+    {% endwith %}
+{% endblock %}
