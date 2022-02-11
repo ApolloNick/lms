@@ -1,7 +1,7 @@
 import datetime
 import random
-
 from django.db import models
+from django.urls import reverse
 
 
 class Group(models.Model):
@@ -22,6 +22,9 @@ class Group(models.Model):
                 datetime.datetime.today() - datetime.timedelta(days=random.randint(30, 365))
             )
             g.save()
+
+    def get_absolute_url(self):
+        return reverse('groups:group', kwargs={'id': self.id})
 
     def __str__(self):
         return f"Group({self.id}): NAME {self.name} COURSE: {self.course} " \

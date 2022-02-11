@@ -1,6 +1,7 @@
-from django.http import HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404
-from django.urls import reverse
+from django.shortcuts import render
+from django.urls import reverse, reverse_lazy
+from django.views.generic import UpdateView, CreateView, DeleteView, ListView
+
 from teachers.forms import TeacherCreateForm, TeacherEditForm, TeacherFilter
 from teachers.models import Teacher
 
@@ -14,40 +15,24 @@ def get_teachers(request):
     })
 
 
-def create_teacher(request):
-    if request.method == 'POST':
-        form = TeacherCreateForm(request.POST)
-        if form.is_valid():
-            form.save()
-            return HttpResponseRedirect(reverse('teachers:list_teachers'))
-    else:
-        form = TeacherCreateForm()
-    return render(request, 'teachers/create_teachers.html', {
-        'form': form
-    })
+class TeacherCreateView(CreateView):
+    model = Teacher
+    form_class = TeacherCreateForm
+    pk_url_kwarg = 'id'
+    success_url = reverse_lazy('teachers:list_teachers')
+    template_name = 'teachers/create_teachers.html'
 
 
-def edit_teacher(request, id: int):
-    teacher = Teacher.objects.get(id=id)
-    if request.method == 'POST':
-        form = TeacherEditForm(request.POST, instance=teacher)
-        if form.is_valid():
-            form.save()
-            return HttpResponseRedirect(reverse('teachers:list_teachers'))
-    else:
-        form = TeacherEditForm(instance=teacher)
-    return render(request, 'teachers/edit_teachers.html', {
-        'form': form
-    })
+class TeacherEditView(UpdateView):
+    model = Teacher
+    form_class = TeacherEditForm
+    pk_url_kwarg = 'id'
+    success_url = reverse_lazy('teachers:list_teachers')
+    template_name = 'teachers/edit_teachers.html'
 
 
-def delete_teacher(request, id: int):
-    teacher = get_object_or_404(Teacher, id=id)
-    if request.method == 'POST':
-        teacher.delete()
-        return HttpResponseRedirect(reverse('teachers:list_teachers'))
-    return render(
-        request,
-        'teachers/delete_teachers.html',
-        {'teacher': teacher}
-    )
+class TeacherDeleteView(DeleteView):
+    model = Teacher
+    pk_url_kwarg = 'id'
+    template_name = 'teachers/delete_teachers.html'
+    success_url = reverse_lazy('teachers:list_teachers')
