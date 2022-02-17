@@ -15,5 +15,5 @@
     <a href="{% url 'teachers:create_teachers' %}"> Add new Teacher </a>
     <br>
     <br>
-    {% include 'teachers/_teachers_list_table.html' with teachers=filter.qs %}
+    {% include 'teachers/_teachers_list_table.html' with teachers=object_list%}
 {% endblock %}

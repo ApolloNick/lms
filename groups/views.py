@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import UpdateView
 from groups.forms import GroupEditForm
@@ -15,7 +16,7 @@ def get_group(request, id):
     )
 
 
-class GroupEditView(UpdateView):
+class GroupEditView(LoginRequiredMixin, UpdateView):
     model = Group
     form_class = GroupEditForm
     pk_url_kwarg = 'id'

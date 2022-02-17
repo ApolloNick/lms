@@ -7,7 +7,11 @@ import django_filters
 class TeacherFilter(django_filters.FilterSet):
     class Meta:
         model = Teacher
-        fields = ['first_name', 'last_name', 'age', 'email', 'phone_number']
+        fields = {
+            'first_name': ['icontains'],
+            'last_name': ['icontains'],
+            'age': ['exact']
+        }
 
 
 class TeacherBaseForm(ModelForm):
