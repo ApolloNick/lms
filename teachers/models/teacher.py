@@ -14,6 +14,13 @@ class Teacher(Person):
         related_name='teachers',
     )
 
+    class PositionLevel(models.IntegerChoices):
+        TEACHER = 1, 'Teacher'
+        MENTOR = 2, 'Mentor'
+
+    position = models.PositiveIntegerField(default=PositionLevel.TEACHER,
+                                           choices=PositionLevel.choices)
+
     @classmethod
     def generate_teachers(cls, count):
         faker = Faker()

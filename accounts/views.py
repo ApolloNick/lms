@@ -1,3 +1,4 @@
+from django.contrib import messages
 from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
@@ -13,9 +14,25 @@ class AccountRegister(CreateView):
     success_url = reverse_lazy('index')
     form_class = AccountRegisterForm
 
+    def form_valid(self, form):
+        result = super().form_valid(form)
+        messages.success(
+            self.request,
+            f"Registered successfully"
+        )
+        return result
+
 
 class AccountLogin(LoginView):
     template_name = 'accounts/login.html'
+
+    def form_valid(self, form):
+        result = super().form_valid(form)
+        messages.success(
+            self.request,
+            f"User {self.request.user.username} logged in successfully"
+        )
+        return result
 
 
 class AccountEdit(LoginRequiredMixin, UpdateView):
@@ -26,6 +43,14 @@ class AccountEdit(LoginRequiredMixin, UpdateView):
 
     def get_object(self, queryset=None):
         return self.request.user
+
+    def form_valid(self, form):
+        result = super().form_valid(form)
+        messages.success(
+            self.request,
+            f"Account edited successfully"
+        )
+        return result
 
 
 class AccountChangePassword(LoginRequiredMixin, PasswordChangeView):

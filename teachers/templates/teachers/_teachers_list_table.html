@@ -7,6 +7,7 @@
             <th> Group </th>
             <th> Email </th>
             <th> Phone Number </th>
+            <th> Position </th>
             <th>  </th>
             <th>  </th>
         </tr>
@@ -26,6 +27,7 @@
             </td>
             <td>{{ teacher.email }}</td>
             <td>{{ teacher.phone_number }} </td>
+            <td>{{ teacher.position }} </td>
             <td>   <a href="{% url 'teachers:edit_teachers' id=teacher.id %}"> Edit </a> </td>
             <td>   <a href="{% url 'teachers:delete_teachers' id=teacher.id %}"> Delete </a> </td>
         </tr>
