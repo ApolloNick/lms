@@ -15,5 +15,6 @@
     <a href="{% url 'teachers:create_teachers' %}"> Add new Teacher </a>
     <br>
     <br>
-    {% include 'teachers/_teachers_list_table.html' with teachers=object_list%}
+    {% include 'teachers/_teachers_list_table.html' with teachers=page_obj.object_list%}
+    {% include '_pagination.html' %}
 {% endblock %}
