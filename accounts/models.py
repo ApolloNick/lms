@@ -11,7 +11,7 @@ class Profile(models.Model):
                               default='default.png',
                               upload_to='pics/',
                               blank=True,
-                              validators=[FileExtensionValidator(['jpeg', 'png'])],
+                              validators=[FileExtensionValidator(['jpg', 'png'])],
                               )
 
     @classmethod

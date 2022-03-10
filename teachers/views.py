@@ -1,3 +1,4 @@
+from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.core.paginator import Paginator
 from django.urls import reverse_lazy
@@ -38,6 +39,14 @@ class TeacherCreateView(LoginRequiredMixin, CreateView):
     success_url = reverse_lazy('teachers:list_teachers')
     template_name = 'teachers/create_teachers.html'
 
+    def form_valid(self, form):
+        result = super().form_valid(form)
+        messages.success(
+            self.request,
+            f"Teacher created successfully"
+        )
+        return result
+
 
 class TeacherEditView(LoginRequiredMixin, UpdateView):
     model = Teacher
@@ -45,6 +54,14 @@ class TeacherEditView(LoginRequiredMixin, UpdateView):
     pk_url_kwarg = 'id'
     success_url = reverse_lazy('teachers:list_teachers')
     template_name = 'teachers/edit_teachers.html'
+
+    def form_valid(self, form):
+        result = super().form_valid(form)
+        messages.success(
+            self.request,
+            f"Teacher edited successfully"
+        )
+        return result
 
 
 class TeacherDeleteView(LoginRequiredMixin, DeleteView):

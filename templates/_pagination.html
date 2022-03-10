@@ -1,19 +1,22 @@
-{% load query_transform %}
+{% load bootstrap_pagination %}
+{% bootstrap_paginate page_obj range=10 show_prev_next="true" show_first_last="true" %}
 
-<div class="pagination">
-    <span class="step-links">
-        {% if page_obj.has_previous %}
-            <a href="?{% query_transform_tag page=1 %}">&laquo; First</a>
-            <a href="?{% query_transform_tag page=page_obj.previous_page_number %}">Previous</a>
-        {% endif %}
+{#{% load query_transform %}#}
+{#<div class="pagination">#}
+{#    <span class="step-links">#}
+{#        {% if page_obj.has_previous %}#}
+{#            <a href="?{% query_transform_tag page=1 %}">&laquo; First</a>#}
+{#            <a href="?{% query_transform_tag page=page_obj.previous_page_number %}">Previous</a>#}
+{#        {% endif %}#}
+{##}
+{#        <span class="current">#}
+{#            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.#}
+{#        </span>#}
+{##}
+{#        {% if page_obj.has_next %}#}
+{#            <a href="?{% query_transform_tag page=page_obj.next_page_number %}">Next</a>#}
+{#            <a href="?{% query_transform_tag page=page_obj.paginator.num_pages %}">Last &raquo;</a>#}
+{#        {% endif %}#}
+{#    </span>#}
+{#</div>#}
 
-        <span class="current">
-            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
-        </span>
-
-        {% if page_obj.has_next %}
-            <a href="?{% query_transform_tag page=page_obj.next_page_number %}">Next</a>
-            <a href="?{% query_transform_tag page=page_obj.paginator.num_pages %}">Last &raquo;</a>
-        {% endif %}
-    </span>
-</div>
