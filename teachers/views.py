@@ -1,7 +1,9 @@
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.core.paginator import Paginator
+from django.http import HttpResponse
 from django.urls import reverse_lazy
+from django.views import View
 from django.views.generic import UpdateView, CreateView, DeleteView, ListView
 from teachers.forms import TeacherCreateForm, TeacherEditForm, TeacherFilter
 from teachers.models import Teacher
@@ -30,6 +32,20 @@ class TeacherListView(ListView):
         page_obj = paginator.page(int(page_number))
         context['page_obj'] = page_obj
         return context
+
+
+class TeacherListAPIExample(View):
+    def get(self, request):
+        import json
+        queryset = Teacher.objects.all()
+        response_dict = {
+            'teachers': [
+                {'id': teacher.id, 'first_name': teacher.first_name, 'last_name': teacher.last_name,
+                 'occupation':teacher.occupation, 'group_obj': teacher.group}
+                for teacher in queryset
+            ]
+        }
+        return HttpResponse(json.dumps(response_dict), content_type='application/json')
 
 
 class TeacherCreateView(LoginRequiredMixin, CreateView):

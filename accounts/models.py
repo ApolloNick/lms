@@ -19,7 +19,7 @@ class Profile(models.Model):
         for user in User.objects.all():
             try:
                 user.profile
-            except:
+            except ValueError:
                 profile = Profile()
                 profile.user = user
                 profile.save()
