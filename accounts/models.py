@@ -23,4 +23,3 @@ class Profile(models.Model):
                 profile = Profile()
                 profile.user = user
                 profile.save()
-

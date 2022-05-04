@@ -1,9 +1,13 @@
 from django.urls import re_path, path
-from api import views
-from rest_framework.routers import DefaultRouter
+from api.v1 import views
+from rest_framework.routers import SimpleRouter
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+)
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -20,16 +24,17 @@ schema_view = get_schema_view(
 
 app_name = 'api'
 
-router = DefaultRouter()
-router.register('teachers', views.TeacherViewSet, basename='teacher')
+router = SimpleRouter()
+router.register(r'teachers', views.TeacherViewSet, basename='teacher')
+router.register(r'groups', views.GroupViewSet, basename='group')
 
-router_1 = DefaultRouter()
-router_1.register('groups', views.GroupViewSet, basename='group')
 
 urlpatterns = [
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
-    re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui')
+    re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+    re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+    path(r'token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path(r'token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
 
 urlpatterns += router.urls
-urlpatterns += router_1.urls
