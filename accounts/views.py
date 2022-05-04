@@ -20,7 +20,7 @@ class AccountRegister(CreateView):
         result = super().form_valid(form)
         messages.success(
             self.request,
-            f"Registered successfully"
+            "Registered successfully"
         )
         return result
 

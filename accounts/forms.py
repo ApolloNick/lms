@@ -17,4 +17,3 @@ class ProfileEditForm(ModelForm):
     class Meta:
         model = Profile
         fields = ['image']
-

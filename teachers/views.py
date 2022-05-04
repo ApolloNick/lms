@@ -41,7 +41,7 @@ class TeacherListAPIExample(View):
         response_dict = {
             'teachers': [
                 {'id': teacher.id, 'first_name': teacher.first_name, 'last_name': teacher.last_name,
-                 'occupation':teacher.occupation, 'group_obj': teacher.group}
+                 'occupation': teacher.occupation, 'group_obj': teacher.group}
                 for teacher in queryset
             ]
         }
@@ -59,7 +59,7 @@ class TeacherCreateView(LoginRequiredMixin, CreateView):
         result = super().form_valid(form)
         messages.success(
             self.request,
-            f"Teacher created successfully"
+            "Teacher created successfully"
         )
         return result
 
@@ -75,7 +75,7 @@ class TeacherEditView(LoginRequiredMixin, UpdateView):
         result = super().form_valid(form)
         messages.success(
             self.request,
-            f"Teacher edited successfully"
+            "Teacher edited successfully"
         )
         return result
 
