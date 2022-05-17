@@ -19,16 +19,6 @@ class TeacherBaseForm(ModelForm):
         model = Teacher
         fields = '__all__'
 
-    def clean(self):
-        result = super().clean()
-        allow_domain = ['gmail', 'example', 'mail', 'yandex', 'ukr']
-        email = self.cleaned_data.get('email')
-        split_email_first = email.split('@')
-        split_email_second = split_email_first[1].split('.')
-        if split_email_second[0] not in allow_domain:
-            raise ValidationError(f'Sorry, you enter not validated domain. Allowed: {allow_domain}')
-        return result
-
     def clean_email(self):
         email = self.cleaned_data['email']
         has_email_qs = Teacher.objects.filter(email=email)

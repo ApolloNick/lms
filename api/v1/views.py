@@ -27,8 +27,10 @@ class GroupViewSet(viewsets.ModelViewSet):
     serializer_class = GroupSerializer
     pagination_class = GroupPagination
     filter_backends = [DjangoFilterBackend,
-                       rest_framework_filters.OrderingFilter]
+                       rest_framework_filters.OrderingFilter,
+                       rest_framework_filters.SearchFilter]
     filterset_class = GroupFilter
     ordering_fields = ['id', 'name', 'course', 'start_date']
     throttle_classes = [AnonTeacherThrottle]
-
+    search_fields = ['=name', 'course']
+    http_method_names = ['get', 'post', 'put', 'delete', 'head']

@@ -5,6 +5,7 @@ from django.views import View
 from django.views.generic import UpdateView
 from groups.forms import GroupEditForm
 from groups.models import Group
+import json
 
 
 def get_group(request, id):
@@ -20,7 +21,6 @@ def get_group(request, id):
 
 class GroupListAPIExample(View):
     def get(self, request):
-        import json
         queryset = Group.objects.all()
         response_dict = {
             'group': [

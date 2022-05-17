@@ -7,6 +7,7 @@ from django.views import View
 from django.views.generic import UpdateView, CreateView, DeleteView, ListView
 from teachers.forms import TeacherCreateForm, TeacherEditForm, TeacherFilter
 from teachers.models import Teacher
+import json
 
 
 class TeacherListView(ListView):
@@ -36,7 +37,6 @@ class TeacherListView(ListView):
 
 class TeacherListAPIExample(View):
     def get(self, request):
-        import json
         queryset = Teacher.objects.all()
         response_dict = {
             'teachers': [

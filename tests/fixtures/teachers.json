@@ -1,0 +1,5822 @@
+[
+  {
+    "model": "teachers.teacher",
+    "pk": 5,
+    "fields": {
+      "first_name": "Ambe",
+      "last_name": "Chavez",
+      "age": 32,
+      "occupation": "Python",
+      "email": "brian71@example.org",
+      "birth_date": "1990-02-08",
+      "phone_number": "+38(099)6274707",
+      "group": 7,
+      "position": 2
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 6,
+    "fields": {
+      "first_name": "Andrew",
+      "last_name": "Jones",
+      "age": 46,
+      "occupation": "C",
+      "email": "jameswatson@example.org",
+      "birth_date": "1976-02-09",
+      "phone_number": "+38(099)6224854",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 7,
+    "fields": {
+      "first_name": "Samantha",
+      "last_name": "Robinson",
+      "age": 31,
+      "occupation": "C++",
+      "email": "johnmartin@example.net",
+      "birth_date": "1991-02-09",
+      "phone_number": "+38(093)0737884",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 8,
+    "fields": {
+      "first_name": "Russell",
+      "last_name": "Maxwell",
+      "age": 31,
+      "occupation": "JavaScript",
+      "email": "diane34@example.com",
+      "birth_date": "1991-02-09",
+      "phone_number": "+38(099)0440706",
+      "group": 1,
+      "position": 2
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 9,
+    "fields": {
+      "first_name": "Robert",
+      "last_name": "Burke",
+      "age": 32,
+      "occupation": "C++",
+      "email": "sara90@example.com",
+      "birth_date": "1990-02-09",
+      "phone_number": "+38(093)0888002",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 10,
+    "fields": {
+      "first_name": "Nicholas",
+      "last_name": "Taylor",
+      "age": 37,
+      "occupation": "C",
+      "email": "jessica77@example.org",
+      "birth_date": "1985-02-09",
+      "phone_number": "+38(099)3119065",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 11,
+    "fields": {
+      "first_name": "Abigail",
+      "last_name": "Knight",
+      "age": 32,
+      "occupation": "Java",
+      "email": "kathryn58@example.net",
+      "birth_date": "1990-02-09",
+      "phone_number": "+38(097)1797050",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 12,
+    "fields": {
+      "first_name": "Laura",
+      "last_name": "Schwartz",
+      "age": 29,
+      "occupation": "C++",
+      "email": "anthony72@example.net",
+      "birth_date": "1993-02-09",
+      "phone_number": "+38(097)9369029",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 13,
+    "fields": {
+      "first_name": "Dominique",
+      "last_name": "Reese",
+      "age": 41,
+      "occupation": "Python",
+      "email": "katherine34@example.net",
+      "birth_date": "1981-02-09",
+      "phone_number": "+38(096)4881226",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 15,
+    "fields": {
+      "first_name": "Christian",
+      "last_name": "Nelson",
+      "age": 25,
+      "occupation": "PHP",
+      "email": "sheppardjean@example.org",
+      "birth_date": "1997-02-09",
+      "phone_number": "+38(099)2052914",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 16,
+    "fields": {
+      "first_name": "Sara",
+      "last_name": "Jackson",
+      "age": 31,
+      "occupation": "PHP",
+      "email": "qeverett@example.org",
+      "birth_date": "1991-02-09",
+      "phone_number": "+38(073)1626154",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 17,
+    "fields": {
+      "first_name": "Maria",
+      "last_name": "Thompson",
+      "age": 25,
+      "occupation": "Python",
+      "email": "rosewilliams@example.net",
+      "birth_date": "1997-02-09",
+      "phone_number": "+38(048)7067908",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 18,
+    "fields": {
+      "first_name": "Timothy",
+      "last_name": "Bryant",
+      "age": 42,
+      "occupation": "PHP",
+      "email": "sandrawilkerson@example.net",
+      "birth_date": "1980-02-09",
+      "phone_number": "+38(096)2714799",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 19,
+    "fields": {
+      "first_name": "Sarah",
+      "last_name": "Hawkins",
+      "age": 45,
+      "occupation": "Java",
+      "email": "brewermelissa@example.net",
+      "birth_date": "1977-02-09",
+      "phone_number": "+38(099)9201974",
+      "group": 8,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 20,
+    "fields": {
+      "first_name": "Stephanie",
+      "last_name": "Johnson",
+      "age": 43,
+      "occupation": "C",
+      "email": "keith99@example.com",
+      "birth_date": "1979-02-09",
+      "phone_number": "+38(096)7984801",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 21,
+    "fields": {
+      "first_name": "Kevin",
+      "last_name": "Weiss",
+      "age": 42,
+      "occupation": "C++",
+      "email": "regina67@example.com",
+      "birth_date": "1980-02-09",
+      "phone_number": "+38(093)9195323",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 22,
+    "fields": {
+      "first_name": "Gary",
+      "last_name": "Hammond",
+      "age": 43,
+      "occupation": "Java",
+      "email": "zstevens@example.org",
+      "birth_date": "1979-02-09",
+      "phone_number": "+38(093)2273970",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 23,
+    "fields": {
+      "first_name": "Denise",
+      "last_name": "Buckley",
+      "age": 27,
+      "occupation": "JavaScript",
+      "email": "mcgeejohn@example.com",
+      "birth_date": "1995-02-09",
+      "phone_number": "+38(097)8201421",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 24,
+    "fields": {
+      "first_name": "Caleb",
+      "last_name": "Moore",
+      "age": 49,
+      "occupation": "PHP",
+      "email": "xburns@example.net",
+      "birth_date": "1973-02-09",
+      "phone_number": "+38(073)6574098",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 25,
+    "fields": {
+      "first_name": "Jerry",
+      "last_name": "Lyons",
+      "age": 47,
+      "occupation": "C++",
+      "email": "trevinobruce@example.org",
+      "birth_date": "1975-02-09",
+      "phone_number": "+38(099)9573410",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 26,
+    "fields": {
+      "first_name": "Katherine",
+      "last_name": "Brown",
+      "age": 33,
+      "occupation": "Java",
+      "email": "ashleywallace@example.com",
+      "birth_date": "1989-02-09",
+      "phone_number": "+38(050)5422436",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 27,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Smith",
+      "age": 45,
+      "occupation": "Java",
+      "email": "cardenasandrea@example.org",
+      "birth_date": "1977-02-09",
+      "phone_number": "+38(096)8053605",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 28,
+    "fields": {
+      "first_name": "Jeff",
+      "last_name": "Adams",
+      "age": 47,
+      "occupation": "PHP",
+      "email": "chaserachael@example.net",
+      "birth_date": "1975-02-09",
+      "phone_number": "+38(099)5431974",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 29,
+    "fields": {
+      "first_name": "Kathleen",
+      "last_name": "Bell",
+      "age": 27,
+      "occupation": "Java",
+      "email": "robinsonkimberly@example.org",
+      "birth_date": "1995-02-09",
+      "phone_number": "+38(073)9009386",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 30,
+    "fields": {
+      "first_name": "Paul",
+      "last_name": "Skinner",
+      "age": 33,
+      "occupation": "Java",
+      "email": "hpierce@example.org",
+      "birth_date": "1989-02-09",
+      "phone_number": "+38(096)1101934",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 31,
+    "fields": {
+      "first_name": "Diane",
+      "last_name": "Miles",
+      "age": 37,
+      "occupation": "C++",
+      "email": "sara33@example.com",
+      "birth_date": "1985-02-09",
+      "phone_number": "+38(099)1410755",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 32,
+    "fields": {
+      "first_name": "James",
+      "last_name": "Mitchell",
+      "age": 40,
+      "occupation": "PHP",
+      "email": "xcohen@example.org",
+      "birth_date": "1982-02-09",
+      "phone_number": "+38(097)5062990",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 33,
+    "fields": {
+      "first_name": "Paul",
+      "last_name": "Farley",
+      "age": 35,
+      "occupation": "Java",
+      "email": "johnjames@example.com",
+      "birth_date": "1987-02-09",
+      "phone_number": "+38(097)0475314",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 34,
+    "fields": {
+      "first_name": "Sean",
+      "last_name": "Russell",
+      "age": 44,
+      "occupation": "Python",
+      "email": "ochoachristopher@example.com",
+      "birth_date": "1978-02-09",
+      "phone_number": "+38(099)3787267",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 35,
+    "fields": {
+      "first_name": "Brandon",
+      "last_name": "Boyd",
+      "age": 45,
+      "occupation": "Java",
+      "email": "alexanderfernandez@example.net",
+      "birth_date": "1977-02-09",
+      "phone_number": "+38(050)9341452",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 36,
+    "fields": {
+      "first_name": "Richard",
+      "last_name": "Holmes",
+      "age": 48,
+      "occupation": "C",
+      "email": "ebrooks@example.net",
+      "birth_date": "1974-02-09",
+      "phone_number": "+38(097)0850768",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 37,
+    "fields": {
+      "first_name": "Amanda",
+      "last_name": "Jones",
+      "age": 43,
+      "occupation": "C",
+      "email": "bwong@example.org",
+      "birth_date": "1979-02-09",
+      "phone_number": "+38(093)6868236",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 38,
+    "fields": {
+      "first_name": "Cory",
+      "last_name": "Lewis",
+      "age": 40,
+      "occupation": "PHP",
+      "email": "oconnorbridget@example.org",
+      "birth_date": "1982-02-09",
+      "phone_number": "+38(099)0974568",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 39,
+    "fields": {
+      "first_name": "Christopher",
+      "last_name": "Reeves",
+      "age": 32,
+      "occupation": "JavaScript",
+      "email": "vsimmons@example.com",
+      "birth_date": "1990-02-09",
+      "phone_number": "+38(050)4026980",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 40,
+    "fields": {
+      "first_name": "Jeffery",
+      "last_name": "Moran",
+      "age": 50,
+      "occupation": "C++",
+      "email": "qgomez@example.net",
+      "birth_date": "1972-02-09",
+      "phone_number": "+38(097)7928307",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 41,
+    "fields": {
+      "first_name": "Patrick",
+      "last_name": "House",
+      "age": 25,
+      "occupation": "Java",
+      "email": "pattersoncorey@example.net",
+      "birth_date": "1997-02-09",
+      "phone_number": "+38(097)8700542",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 42,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Dalton",
+      "age": 31,
+      "occupation": "C",
+      "email": "jacksonjustin@example.com",
+      "birth_date": "1991-02-09",
+      "phone_number": "+38(097)6237290",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 43,
+    "fields": {
+      "first_name": "Geoffrey",
+      "last_name": "Parker",
+      "age": 49,
+      "occupation": "C",
+      "email": "danieldavis@example.com",
+      "birth_date": "1973-02-09",
+      "phone_number": "+38(097)6766399",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 44,
+    "fields": {
+      "first_name": "Thomas",
+      "last_name": "Rose",
+      "age": 26,
+      "occupation": "Java",
+      "email": "john39@example.com",
+      "birth_date": "1996-02-09",
+      "phone_number": "+38(048)2443627",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 45,
+    "fields": {
+      "first_name": "Jaime",
+      "last_name": "Quinn",
+      "age": 34,
+      "occupation": "C++",
+      "email": "sandersjamie@example.com",
+      "birth_date": "1988-02-09",
+      "phone_number": "+38(099)0625085",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 46,
+    "fields": {
+      "first_name": "David",
+      "last_name": "Daniels",
+      "age": 30,
+      "occupation": "PHP",
+      "email": "philipfreeman@example.net",
+      "birth_date": "1992-02-09",
+      "phone_number": "+38(067)0376964",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 47,
+    "fields": {
+      "first_name": "Marvin",
+      "last_name": "Jordan",
+      "age": 47,
+      "occupation": "JavaScript",
+      "email": "tina72@example.com",
+      "birth_date": "1975-02-09",
+      "phone_number": "+38(097)5706113",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 48,
+    "fields": {
+      "first_name": "Daniel",
+      "last_name": "Jones",
+      "age": 34,
+      "occupation": "C++",
+      "email": "martinezjennifer@example.com",
+      "birth_date": "1988-02-09",
+      "phone_number": "+38(067)8716663",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 49,
+    "fields": {
+      "first_name": "Amanda",
+      "last_name": "Wells",
+      "age": 50,
+      "occupation": "JavaScript",
+      "email": "yolandasherman@example.org",
+      "birth_date": "1972-02-09",
+      "phone_number": "+38(048)5151217",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 50,
+    "fields": {
+      "first_name": "Rodney",
+      "last_name": "Johnson",
+      "age": 27,
+      "occupation": "C",
+      "email": "vherrera@example.net",
+      "birth_date": "1995-02-09",
+      "phone_number": "+38(096)2332777",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 51,
+    "fields": {
+      "first_name": "Tammy",
+      "last_name": "Ashley",
+      "age": 32,
+      "occupation": "PHP",
+      "email": "allisonwilson@example.org",
+      "birth_date": "1990-02-09",
+      "phone_number": "+38(097)6340757",
+      "group": 8,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 52,
+    "fields": {
+      "first_name": "Kimberly",
+      "last_name": "Moore",
+      "age": 40,
+      "occupation": "Python",
+      "email": "wlove@example.org",
+      "birth_date": "1982-02-09",
+      "phone_number": "+38(073)4198795",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 53,
+    "fields": {
+      "first_name": "Jack",
+      "last_name": "Lopez",
+      "age": 31,
+      "occupation": "JavaScript",
+      "email": "efox@example.com",
+      "birth_date": "1991-02-09",
+      "phone_number": "+38(099)9772509",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 54,
+    "fields": {
+      "first_name": "Brittany",
+      "last_name": "Beasley",
+      "age": 45,
+      "occupation": "Python",
+      "email": "bryanwiggins@example.com",
+      "birth_date": "1977-02-09",
+      "phone_number": "+38(096)8168537",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 55,
+    "fields": {
+      "first_name": "Ann",
+      "last_name": "Lamb",
+      "age": 50,
+      "occupation": "C++",
+      "email": "william52@example.net",
+      "birth_date": "1972-02-09",
+      "phone_number": "+38(067)1150618",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 56,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Fields",
+      "age": 30,
+      "occupation": "PHP",
+      "email": "fergusonjustin@example.net",
+      "birth_date": "1992-02-09",
+      "phone_number": "+38(099)7789172",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 57,
+    "fields": {
+      "first_name": "Seth",
+      "last_name": "Williams",
+      "age": 41,
+      "occupation": "PHP",
+      "email": "fevans@example.com",
+      "birth_date": "1981-02-09",
+      "phone_number": "+38(099)7123392",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 58,
+    "fields": {
+      "first_name": "Andrea",
+      "last_name": "Frederick",
+      "age": 32,
+      "occupation": "Python",
+      "email": "michael66@example.net",
+      "birth_date": "1990-02-09",
+      "phone_number": "+38(067)9533259",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 59,
+    "fields": {
+      "first_name": "David",
+      "last_name": "Lester",
+      "age": 26,
+      "occupation": "C++",
+      "email": "justin48@example.net",
+      "birth_date": "1996-02-09",
+      "phone_number": "+38(093)4452822",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 60,
+    "fields": {
+      "first_name": "Douglas",
+      "last_name": "Green",
+      "age": 42,
+      "occupation": "C++",
+      "email": "ulewis@example.org",
+      "birth_date": "1980-02-09",
+      "phone_number": "+38(048)0490922",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 61,
+    "fields": {
+      "first_name": "Heidi",
+      "last_name": "Smith",
+      "age": 37,
+      "occupation": "C++",
+      "email": "lesliegraham@example.org",
+      "birth_date": "1985-02-09",
+      "phone_number": "+38(067)8636446",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 62,
+    "fields": {
+      "first_name": "Ricardo",
+      "last_name": "Davis",
+      "age": 39,
+      "occupation": "C",
+      "email": "james05@example.org",
+      "birth_date": "1983-02-09",
+      "phone_number": "+38(093)9783311",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 63,
+    "fields": {
+      "first_name": "Danielle",
+      "last_name": "Palmer",
+      "age": 31,
+      "occupation": "PHP",
+      "email": "houstonjason@example.com",
+      "birth_date": "1991-02-09",
+      "phone_number": "+38(048)4143984",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 64,
+    "fields": {
+      "first_name": "Lance",
+      "last_name": "Jones",
+      "age": 32,
+      "occupation": "C",
+      "email": "thomasthomas@example.org",
+      "birth_date": "1990-02-09",
+      "phone_number": "+38(073)2688977",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 65,
+    "fields": {
+      "first_name": "James",
+      "last_name": "Carter",
+      "age": 48,
+      "occupation": "C++",
+      "email": "rodriguezjuan@example.net",
+      "birth_date": "1974-02-09",
+      "phone_number": "+38(073)1525041",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 66,
+    "fields": {
+      "first_name": "Aaron",
+      "last_name": "Hernandez",
+      "age": 44,
+      "occupation": "C++",
+      "email": "jonathan75@example.org",
+      "birth_date": "1978-02-09",
+      "phone_number": "+38(073)2716231",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 67,
+    "fields": {
+      "first_name": "Peter",
+      "last_name": "Hartman",
+      "age": 39,
+      "occupation": "Python",
+      "email": "garciaamy@example.org",
+      "birth_date": "1983-02-09",
+      "phone_number": "+38(096)8014578",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 68,
+    "fields": {
+      "first_name": "Kayla",
+      "last_name": "Stewart",
+      "age": 42,
+      "occupation": "JavaScript",
+      "email": "garciajames@example.net",
+      "birth_date": "1980-02-09",
+      "phone_number": "+38(048)4322893",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 69,
+    "fields": {
+      "first_name": "Megan",
+      "last_name": "Kelly",
+      "age": 26,
+      "occupation": "PHP",
+      "email": "lindseyhaley@example.com",
+      "birth_date": "1996-02-09",
+      "phone_number": "+38(073)7429304",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 70,
+    "fields": {
+      "first_name": "Stephanie",
+      "last_name": "Richard",
+      "age": 27,
+      "occupation": "PHP",
+      "email": "raymond92@example.com",
+      "birth_date": "1995-02-09",
+      "phone_number": "+38(096)0142884",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 71,
+    "fields": {
+      "first_name": "Maurice",
+      "last_name": "Thomas",
+      "age": 46,
+      "occupation": "Java",
+      "email": "cmoore@example.net",
+      "birth_date": "1976-02-09",
+      "phone_number": "+38(099)9784276",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 72,
+    "fields": {
+      "first_name": "Kimberly",
+      "last_name": "Reyes",
+      "age": 42,
+      "occupation": "Java",
+      "email": "donald46@example.net",
+      "birth_date": "1980-02-09",
+      "phone_number": "+38(067)9709931",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 73,
+    "fields": {
+      "first_name": "Jerome",
+      "last_name": "Flores",
+      "age": 38,
+      "occupation": "JavaScript",
+      "email": "montgomerystephanie@example.com",
+      "birth_date": "1984-02-09",
+      "phone_number": "+38(048)2589745",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 74,
+    "fields": {
+      "first_name": "Cody",
+      "last_name": "Clayton",
+      "age": 45,
+      "occupation": "PHP",
+      "email": "annlarson@example.org",
+      "birth_date": "1977-02-09",
+      "phone_number": "+38(050)7474279",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 75,
+    "fields": {
+      "first_name": "Cesar",
+      "last_name": "Larson",
+      "age": 48,
+      "occupation": "PHP",
+      "email": "kennethpatton@example.net",
+      "birth_date": "1974-02-09",
+      "phone_number": "+38(048)1990873",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 76,
+    "fields": {
+      "first_name": "David",
+      "last_name": "Gregory",
+      "age": 46,
+      "occupation": "C",
+      "email": "obryant@example.com",
+      "birth_date": "1976-02-09",
+      "phone_number": "+38(099)7157054",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 77,
+    "fields": {
+      "first_name": "Doris",
+      "last_name": "Wilkinson",
+      "age": 46,
+      "occupation": "JavaScript",
+      "email": "davidwallace@example.org",
+      "birth_date": "1976-02-09",
+      "phone_number": "+38(050)1709911",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 78,
+    "fields": {
+      "first_name": "Kevin",
+      "last_name": "Martinez",
+      "age": 35,
+      "occupation": "C",
+      "email": "jennifer22@example.com",
+      "birth_date": "1987-02-09",
+      "phone_number": "+38(093)2810461",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 79,
+    "fields": {
+      "first_name": "Catherine",
+      "last_name": "White",
+      "age": 46,
+      "occupation": "Python",
+      "email": "kathleendawson@example.net",
+      "birth_date": "1976-02-09",
+      "phone_number": "+38(093)2913657",
+      "group": 8,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 80,
+    "fields": {
+      "first_name": "Catherine",
+      "last_name": "Davis",
+      "age": 25,
+      "occupation": "Java",
+      "email": "zcampbell@example.net",
+      "birth_date": "1997-02-09",
+      "phone_number": "+38(096)1148165",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 81,
+    "fields": {
+      "first_name": "Dennis",
+      "last_name": "Hall",
+      "age": 33,
+      "occupation": "Python",
+      "email": "cmolina@example.net",
+      "birth_date": "1989-02-09",
+      "phone_number": "+38(099)0327284",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 82,
+    "fields": {
+      "first_name": "Michelle",
+      "last_name": "Livingston",
+      "age": 31,
+      "occupation": "PHP",
+      "email": "aguirrebonnie@example.org",
+      "birth_date": "1991-02-09",
+      "phone_number": "+38(048)2383004",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 83,
+    "fields": {
+      "first_name": "James",
+      "last_name": "Duncan",
+      "age": 42,
+      "occupation": "JavaScript",
+      "email": "longdonna@example.com",
+      "birth_date": "1980-02-09",
+      "phone_number": "+38(067)9955130",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 84,
+    "fields": {
+      "first_name": "Brandon",
+      "last_name": "Oconnor",
+      "age": 45,
+      "occupation": "Java",
+      "email": "sayala@example.net",
+      "birth_date": "1977-02-09",
+      "phone_number": "+38(097)7976105",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 85,
+    "fields": {
+      "first_name": "Wendy",
+      "last_name": "Ferguson",
+      "age": 26,
+      "occupation": "JavaScript",
+      "email": "ericabailey@example.org",
+      "birth_date": "1996-02-09",
+      "phone_number": "+38(067)0468745",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 86,
+    "fields": {
+      "first_name": "Jill",
+      "last_name": "Lopez",
+      "age": 49,
+      "occupation": "C++",
+      "email": "danielslauren@example.org",
+      "birth_date": "1973-02-09",
+      "phone_number": "+38(093)5783062",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 87,
+    "fields": {
+      "first_name": "Jason",
+      "last_name": "Baker",
+      "age": 30,
+      "occupation": "C++",
+      "email": "claire15@example.com",
+      "birth_date": "1992-02-09",
+      "phone_number": "+38(099)4198624",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 88,
+    "fields": {
+      "first_name": "Scott",
+      "last_name": "Butler",
+      "age": 41,
+      "occupation": "C++",
+      "email": "mcdanieljennifer@example.net",
+      "birth_date": "1981-02-09",
+      "phone_number": "+38(099)4452125",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 89,
+    "fields": {
+      "first_name": "Taylor",
+      "last_name": "Romero",
+      "age": 44,
+      "occupation": "Java",
+      "email": "wagnertim@example.net",
+      "birth_date": "1978-02-09",
+      "phone_number": "+38(048)6208589",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 90,
+    "fields": {
+      "first_name": "Christian",
+      "last_name": "Harper",
+      "age": 38,
+      "occupation": "C++",
+      "email": "amberboone@example.org",
+      "birth_date": "1984-02-09",
+      "phone_number": "+38(050)7219813",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 91,
+    "fields": {
+      "first_name": "Joseph",
+      "last_name": "Thomas",
+      "age": 48,
+      "occupation": "Java",
+      "email": "noah73@example.org",
+      "birth_date": "1974-02-09",
+      "phone_number": "+38(099)6445346",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 92,
+    "fields": {
+      "first_name": "Thomas",
+      "last_name": "Hancock",
+      "age": 43,
+      "occupation": "JavaScript",
+      "email": "kelly29@example.com",
+      "birth_date": "1979-02-09",
+      "phone_number": "+38(067)7779130",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 93,
+    "fields": {
+      "first_name": "Emily",
+      "last_name": "Holden",
+      "age": 25,
+      "occupation": "JavaScript",
+      "email": "shannonmarshall@example.com",
+      "birth_date": "1997-02-09",
+      "phone_number": "+38(096)5466038",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 94,
+    "fields": {
+      "first_name": "Samuel",
+      "last_name": "Hughes",
+      "age": 32,
+      "occupation": "Python",
+      "email": "hwalker@example.com",
+      "birth_date": "1990-02-09",
+      "phone_number": "+38(093)9331908",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 95,
+    "fields": {
+      "first_name": "Kayla",
+      "last_name": "Garcia",
+      "age": 26,
+      "occupation": "C++",
+      "email": "zhenson@example.org",
+      "birth_date": "1996-02-09",
+      "phone_number": "+38(096)1165446",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 96,
+    "fields": {
+      "first_name": "Sarah",
+      "last_name": "Davis",
+      "age": 30,
+      "occupation": "JavaScript",
+      "email": "ecastillo@example.net",
+      "birth_date": "1992-02-09",
+      "phone_number": "+38(099)5271043",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 97,
+    "fields": {
+      "first_name": "Monica",
+      "last_name": "Wright",
+      "age": 38,
+      "occupation": "Python",
+      "email": "eduardomclean@example.com",
+      "birth_date": "1984-02-09",
+      "phone_number": "+38(093)2449161",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 98,
+    "fields": {
+      "first_name": "Marc",
+      "last_name": "Adkins",
+      "age": 40,
+      "occupation": "C",
+      "email": "klewis@example.net",
+      "birth_date": "1982-02-09",
+      "phone_number": "+38(097)7568018",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 99,
+    "fields": {
+      "first_name": "Natalie",
+      "last_name": "Sims",
+      "age": 45,
+      "occupation": "JavaScript",
+      "email": "joneskaren@example.org",
+      "birth_date": "1977-02-09",
+      "phone_number": "+38(073)6677485",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 100,
+    "fields": {
+      "first_name": "Donald",
+      "last_name": "Payne",
+      "age": 47,
+      "occupation": "C++",
+      "email": "tadams@example.com",
+      "birth_date": "1975-02-09",
+      "phone_number": "+38(073)2928505",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 101,
+    "fields": {
+      "first_name": "Timothy",
+      "last_name": "Hill",
+      "age": 46,
+      "occupation": "JavaScript",
+      "email": "kburnett@example.net",
+      "birth_date": "1976-02-09",
+      "phone_number": "+38(099)2552891",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 102,
+    "fields": {
+      "first_name": "Mark",
+      "last_name": "Keller",
+      "age": 49,
+      "occupation": "Java",
+      "email": "zoe23@example.org",
+      "birth_date": "1973-02-09",
+      "phone_number": "+38(099)4468885",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 103,
+    "fields": {
+      "first_name": "Catherine",
+      "last_name": "Smith",
+      "age": 42,
+      "occupation": "JavaScript",
+      "email": "jasminefigueroa@example.net",
+      "birth_date": "1980-02-09",
+      "phone_number": "+38(099)3145880",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 104,
+    "fields": {
+      "first_name": "Jeremy",
+      "last_name": "Payne",
+      "age": 38,
+      "occupation": "C++",
+      "email": "welchvictoria@example.net",
+      "birth_date": "1984-02-09",
+      "phone_number": "+38(067)0904361",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 105,
+    "fields": {
+      "first_name": "Savannah",
+      "last_name": "Martin",
+      "age": 36,
+      "occupation": "C++",
+      "email": "mooreherbert@example.net",
+      "birth_date": "1986-02-09",
+      "phone_number": "+38(093)1971921",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 106,
+    "fields": {
+      "first_name": "Ashley",
+      "last_name": "Olson",
+      "age": 46,
+      "occupation": "C",
+      "email": "deanna98@example.net",
+      "birth_date": "1976-02-09",
+      "phone_number": "+38(050)4377326",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 107,
+    "fields": {
+      "first_name": "Stephanie",
+      "last_name": "Sanders",
+      "age": 37,
+      "occupation": "Python",
+      "email": "fernandezmonica@example.org",
+      "birth_date": "1985-02-09",
+      "phone_number": "+38(073)2585210",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 108,
+    "fields": {
+      "first_name": "Wendy",
+      "last_name": "Mcbride",
+      "age": 40,
+      "occupation": "Python",
+      "email": "wolfechristine@example.net",
+      "birth_date": "1982-02-09",
+      "phone_number": "+38(093)6951181",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 109,
+    "fields": {
+      "first_name": "Andrew",
+      "last_name": "Jones",
+      "age": 25,
+      "occupation": "JavaScript",
+      "email": "ydavis@example.org",
+      "birth_date": "1997-02-09",
+      "phone_number": "+38(073)3230801",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 110,
+    "fields": {
+      "first_name": "Megan",
+      "last_name": "Lewis",
+      "age": 44,
+      "occupation": "Python",
+      "email": "evanselizabeth@example.org",
+      "birth_date": "1978-02-09",
+      "phone_number": "+38(099)5817247",
+      "group": 8,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 111,
+    "fields": {
+      "first_name": "April",
+      "last_name": "Ayala",
+      "age": 45,
+      "occupation": "Java",
+      "email": "jill42@example.org",
+      "birth_date": "1977-02-09",
+      "phone_number": "+38(067)0613426",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 112,
+    "fields": {
+      "first_name": "Luke",
+      "last_name": "Mcdonald",
+      "age": 45,
+      "occupation": "C",
+      "email": "scottjones@example.net",
+      "birth_date": "1977-02-09",
+      "phone_number": "+38(050)6452192",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 113,
+    "fields": {
+      "first_name": "Brandy",
+      "last_name": "Robinson",
+      "age": 47,
+      "occupation": "PHP",
+      "email": "karennixon@example.org",
+      "birth_date": "1975-02-09",
+      "phone_number": "+38(048)5415153",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 114,
+    "fields": {
+      "first_name": "Phillip",
+      "last_name": "Montgomery",
+      "age": 34,
+      "occupation": "C",
+      "email": "ahull@example.org",
+      "birth_date": "1988-02-09",
+      "phone_number": "+38(067)7589123",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 115,
+    "fields": {
+      "first_name": "Yolanda",
+      "last_name": "Cox",
+      "age": 38,
+      "occupation": "C++",
+      "email": "ffrancis@example.net",
+      "birth_date": "1984-02-09",
+      "phone_number": "+38(048)3782797",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 116,
+    "fields": {
+      "first_name": "Jonathan",
+      "last_name": "Porter",
+      "age": 30,
+      "occupation": "C",
+      "email": "dixonjustin@example.org",
+      "birth_date": "1992-02-09",
+      "phone_number": "+38(096)9432643",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 117,
+    "fields": {
+      "first_name": "Jamie",
+      "last_name": "Hernandez",
+      "age": 36,
+      "occupation": "JavaScript",
+      "email": "michaeldixon@example.net",
+      "birth_date": "1986-02-09",
+      "phone_number": "+38(073)0198892",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 118,
+    "fields": {
+      "first_name": "Timothy",
+      "last_name": "Gomez",
+      "age": 38,
+      "occupation": "Python",
+      "email": "kellerdanielle@example.net",
+      "birth_date": "1984-02-09",
+      "phone_number": "+38(096)5513254",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 119,
+    "fields": {
+      "first_name": "Jade",
+      "last_name": "Schroeder",
+      "age": 43,
+      "occupation": "C++",
+      "email": "franconicole@example.net",
+      "birth_date": "1979-02-09",
+      "phone_number": "+38(099)7630980",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 120,
+    "fields": {
+      "first_name": "Kristin",
+      "last_name": "Robinson",
+      "age": 48,
+      "occupation": "Java",
+      "email": "catherinethomas@example.net",
+      "birth_date": "1974-02-09",
+      "phone_number": "+38(067)7580763",
+      "group": 8,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 121,
+    "fields": {
+      "first_name": "Michael",
+      "last_name": "Curtis",
+      "age": 42,
+      "occupation": "Java",
+      "email": "jvelasquez@example.com",
+      "birth_date": "1980-02-09",
+      "phone_number": "+38(050)5261269",
+      "group": 4,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 122,
+    "fields": {
+      "first_name": "Susan",
+      "last_name": "Peterson",
+      "age": 36,
+      "occupation": "C++",
+      "email": "james91@example.org",
+      "birth_date": "1986-02-09",
+      "phone_number": "+38(050)1701328",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 123,
+    "fields": {
+      "first_name": "Bridget",
+      "last_name": "Hall",
+      "age": 50,
+      "occupation": "Python",
+      "email": "stephengonzales@example.com",
+      "birth_date": "1972-02-09",
+      "phone_number": "+38(050)6467350",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 124,
+    "fields": {
+      "first_name": "Erin",
+      "last_name": "Williams",
+      "age": 47,
+      "occupation": "C++",
+      "email": "smiller@example.com",
+      "birth_date": "1975-02-09",
+      "phone_number": "+38(097)9099051",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 125,
+    "fields": {
+      "first_name": "Kenneth",
+      "last_name": "Martinez",
+      "age": 42,
+      "occupation": "C++",
+      "email": "derek46@example.org",
+      "birth_date": "1980-02-09",
+      "phone_number": "+38(067)3337846",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 126,
+    "fields": {
+      "first_name": "Cody",
+      "last_name": "Clay",
+      "age": 34,
+      "occupation": "C++",
+      "email": "vkim@example.net",
+      "birth_date": "1988-02-09",
+      "phone_number": "+38(073)9101430",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 127,
+    "fields": {
+      "first_name": "Lindsey",
+      "last_name": "Hanson",
+      "age": 39,
+      "occupation": "Python",
+      "email": "belindawhite@example.com",
+      "birth_date": "1983-02-09",
+      "phone_number": "+38(067)6397684",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 128,
+    "fields": {
+      "first_name": "Donna",
+      "last_name": "Romero",
+      "age": 37,
+      "occupation": "C++",
+      "email": "mmoore@example.org",
+      "birth_date": "1985-02-09",
+      "phone_number": "+38(093)7049122",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 129,
+    "fields": {
+      "first_name": "Chad",
+      "last_name": "Brown",
+      "age": 48,
+      "occupation": "Java",
+      "email": "michaelrodriguez@example.org",
+      "birth_date": "1974-02-09",
+      "phone_number": "+38(073)3071539",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 130,
+    "fields": {
+      "first_name": "Melissa",
+      "last_name": "Cook",
+      "age": 49,
+      "occupation": "Java",
+      "email": "jodi87@example.net",
+      "birth_date": "1973-02-09",
+      "phone_number": "+38(097)4658235",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 131,
+    "fields": {
+      "first_name": "David",
+      "last_name": "Bennett",
+      "age": 31,
+      "occupation": "Python",
+      "email": "ramseybrian@example.net",
+      "birth_date": "1991-02-09",
+      "phone_number": "+38(067)6599615",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 132,
+    "fields": {
+      "first_name": "Nicholas",
+      "last_name": "Wells",
+      "age": 46,
+      "occupation": "PHP",
+      "email": "matthew23@example.com",
+      "birth_date": "1976-02-09",
+      "phone_number": "+38(050)2812243",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 133,
+    "fields": {
+      "first_name": "Robert",
+      "last_name": "Day",
+      "age": 31,
+      "occupation": "Python",
+      "email": "austinhunter@example.org",
+      "birth_date": "1991-02-09",
+      "phone_number": "+38(048)1912212",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 134,
+    "fields": {
+      "first_name": "Ricky",
+      "last_name": "Miller",
+      "age": 40,
+      "occupation": "JavaScript",
+      "email": "nicholas12@example.com",
+      "birth_date": "1982-02-09",
+      "phone_number": "+38(097)5662921",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 135,
+    "fields": {
+      "first_name": "William",
+      "last_name": "Sullivan",
+      "age": 30,
+      "occupation": "Java",
+      "email": "donnaperry@example.com",
+      "birth_date": "1992-02-09",
+      "phone_number": "+38(067)7880162",
+      "group": 8,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 136,
+    "fields": {
+      "first_name": "Sarah",
+      "last_name": "Howard",
+      "age": 30,
+      "occupation": "C++",
+      "email": "kstewart@example.org",
+      "birth_date": "1992-02-09",
+      "phone_number": "+38(097)3549596",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 137,
+    "fields": {
+      "first_name": "Julie",
+      "last_name": "Thompson",
+      "age": 47,
+      "occupation": "JavaScript",
+      "email": "mcox@example.com",
+      "birth_date": "1975-02-09",
+      "phone_number": "+38(093)8732504",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 138,
+    "fields": {
+      "first_name": "Daniel",
+      "last_name": "Vasquez",
+      "age": 47,
+      "occupation": "Python",
+      "email": "millsbradley@example.com",
+      "birth_date": "1975-02-09",
+      "phone_number": "+38(050)2433704",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 139,
+    "fields": {
+      "first_name": "Allison",
+      "last_name": "Morales",
+      "age": 28,
+      "occupation": "C",
+      "email": "lallen@example.org",
+      "birth_date": "1994-02-09",
+      "phone_number": "+38(093)8768529",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 140,
+    "fields": {
+      "first_name": "Dakota",
+      "last_name": "Cooper",
+      "age": 25,
+      "occupation": "JavaScript",
+      "email": "isaiah80@example.net",
+      "birth_date": "1997-02-09",
+      "phone_number": "+38(073)9327717",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 141,
+    "fields": {
+      "first_name": "Daniel",
+      "last_name": "Wright",
+      "age": 50,
+      "occupation": "JavaScript",
+      "email": "sabrinawade@example.com",
+      "birth_date": "1972-02-09",
+      "phone_number": "+38(050)3240902",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 142,
+    "fields": {
+      "first_name": "Chad",
+      "last_name": "Powell",
+      "age": 37,
+      "occupation": "C",
+      "email": "hsandoval@example.com",
+      "birth_date": "1985-02-09",
+      "phone_number": "+38(073)9588740",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 143,
+    "fields": {
+      "first_name": "Karen",
+      "last_name": "Wagner",
+      "age": 26,
+      "occupation": "Java",
+      "email": "keith84@example.com",
+      "birth_date": "1996-02-09",
+      "phone_number": "+38(050)6091157",
+      "group": 6,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 144,
+    "fields": {
+      "first_name": "Shannon",
+      "last_name": "Woodward",
+      "age": 28,
+      "occupation": "PHP",
+      "email": "sdougherty@example.net",
+      "birth_date": "1994-02-09",
+      "phone_number": "+38(073)5256181",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 145,
+    "fields": {
+      "first_name": "Cassandra",
+      "last_name": "James",
+      "age": 25,
+      "occupation": "JavaScript",
+      "email": "gellis@example.net",
+      "birth_date": "1997-02-09",
+      "phone_number": "+38(096)5908779",
+      "group": 7,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 146,
+    "fields": {
+      "first_name": "Kimberly",
+      "last_name": "Mann",
+      "age": 33,
+      "occupation": "PHP",
+      "email": "qvalentine@example.org",
+      "birth_date": "1989-02-09",
+      "phone_number": "+38(067)9476530",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 147,
+    "fields": {
+      "first_name": "Nick",
+      "last_name": "Douglas",
+      "age": 25,
+      "occupation": "Python",
+      "email": "my_case@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 148,
+    "fields": {
+      "first_name": "Nick",
+      "last_name": "Douglas",
+      "age": 29,
+      "occupation": "PHP",
+      "email": "angela2@example.net",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 8,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 149,
+    "fields": {
+      "first_name": "Nick",
+      "last_name": "Douglas",
+      "age": 25,
+      "occupation": "Python",
+      "email": "tesango@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 150,
+    "fields": {
+      "first_name": "Christoph",
+      "last_name": "Reynol",
+      "age": 45,
+      "occupation": "PHP",
+      "email": "test_djano@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 151,
+    "fields": {
+      "first_name": "Nick",
+      "last_name": "Douglas",
+      "age": 35,
+      "occupation": "Python",
+      "email": "test_dja22ngo@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 152,
+    "fields": {
+      "first_name": "Ted",
+      "last_name": "Nilson",
+      "age": 52,
+      "occupation": "Python",
+      "email": "test_djang__o@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 8,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 153,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "eee_django@gmail.com",
+      "birth_date": "1995-01-22",
+      "phone_number": "+38(096)1111111",
+      "group": 3,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 154,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "test_php@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 155,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_name@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 156,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_namee@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 157,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nameee@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 158,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_n@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 159,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 160,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 161,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 162,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 163,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 164,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 165,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 166,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 167,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 168,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 169,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 170,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 171,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 172,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 173,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 174,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 175,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 176,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 177,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 178,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 179,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 180,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 181,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 182,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 183,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 184,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 185,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 186,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 187,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 188,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 189,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 190,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 191,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 192,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 193,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 194,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 195,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 196,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 197,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 198,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 199,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 200,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 201,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 202,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 203,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 204,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 205,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 206,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 207,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 208,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 209,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 210,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 211,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 212,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 213,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 214,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 215,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 216,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 217,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 218,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 219,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 220,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 221,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 222,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 223,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 224,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 225,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 226,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 227,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 228,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 229,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 230,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 231,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 232,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 233,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 234,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 235,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 236,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 237,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 238,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 239,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 240,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 241,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 242,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 243,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 244,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 245,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 246,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 247,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 248,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 249,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 250,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 251,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 252,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 253,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 254,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 255,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 256,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 257,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 258,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 259,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 260,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 261,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 262,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 263,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 264,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 265,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 266,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 267,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 268,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 269,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 270,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 271,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 272,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 273,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 274,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb12@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 275,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 276,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 277,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 278,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 279,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 280,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 281,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 282,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 283,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 284,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 285,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 286,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 287,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 288,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 289,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 290,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 291,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 292,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 293,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 294,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 295,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 296,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 297,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 298,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 299,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 300,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 301,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 302,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 303,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 304,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 305,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 306,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 307,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 308,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 309,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 310,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 311,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 312,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 313,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 314,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 315,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 316,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 317,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 318,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 319,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 320,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 321,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 322,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 323,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 324,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 325,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 326,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 327,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 328,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 329,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 330,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 331,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 332,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 333,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 334,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 335,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 336,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 337,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 338,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 339,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 340,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 341,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 342,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 343,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 344,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 345,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 346,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 347,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 348,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 349,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 350,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 351,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 352,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 353,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 354,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 355,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 356,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 357,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 358,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 359,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 360,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 361,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 362,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 363,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 364,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 365,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 366,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 367,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 368,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 369,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 370,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 371,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 372,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 373,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 374,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 375,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 376,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 377,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 378,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 379,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 380,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 381,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 382,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 383,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 384,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 385,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 386,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 387,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 388,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 389,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq2@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": null,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 390,
+    "fields": {
+      "first_name": "Jennifer",
+      "last_name": "Gilmo",
+      "age": 34,
+      "occupation": "PHP",
+      "email": "my_nb1qq23@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 391,
+    "fields": {
+      "first_name": "Greg",
+      "last_name": "Gilmo",
+      "age": 24,
+      "occupation": "Python",
+      "email": "test_django_py@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 2,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 392,
+    "fields": {
+      "first_name": "Greg",
+      "last_name": "Douglas",
+      "age": 35,
+      "occupation": "PHP",
+      "email": "my_name1111@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 5,
+      "position": 1
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 393,
+    "fields": {
+      "first_name": "Nick",
+      "last_name": "Murr",
+      "age": 35,
+      "occupation": "Python",
+      "email": "test_django_2222@gmail.com",
+      "birth_date": "1987-01-01",
+      "phone_number": "+38(096)1111111",
+      "group": 1,
+      "position": 2
+    }
+  }
+]

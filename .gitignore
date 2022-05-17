@@ -6,3 +6,5 @@ __pycache__
 .flake8
 static-root
 media
+.coverage
+.pytest_cache
